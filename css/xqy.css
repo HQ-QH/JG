@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.xxq {
+  background-color: ghostwhite; }
+
+.xqy {
+  width: 1200px;
+  margin: auto;
+  height: 5150px;
+  background-color: ghostwhite; }
+  .xqy .xqy:after {
+    clear: both;
+    display: block;
+    content: ""; }
+  .xqy a {
+    text-decoration: none; }
+  .xqy .xqy-index {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    background-color: ghostwhite; }
+  .xqy .xqy-index a {
+    color: gray;
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 16px; }
+  .xqy .xq-left {
+    width: 900px;
+    background-color: white;
+    float: left;
+    margin-left: 10px; }
+    .xqy .xq-left .penso {
+      width: 900px;
+      height: 100px;
+      margin: auto;
+      background-color: white;
+      border-bottom: 1px gray solid; }
+    .xqy .xq-left .penso span {
+      font-size: 30px;
+      margin-left: 20px;
+      line-height: 60px; }
+    .xqy .xq-left .write {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20px;
+      background-color: white;
+      margin-right: 20px; }
+    .xqy .xq-left .tys {
+      width: 900px;
+      height: 500px;
+      background-color: white;
+      margin: auto;
+      margin-top: 40px; }
+    .xqy .xq-left .tys-p {
+      margin-top: 40px; }
+    .xqy .xq-left .tys-p img {
+      width: 850px;
+      height: 450px;
+      margin-left: 25px; }
+  .xqy .love {
+    width: 250px;
+    height: 90px;
+    background-color: white;
+    border: 1px gainsboro solid;
+    border-radius: 6px;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; }
+    .xqy .love .love-img {
+      width: 125px;
+      height: 90px; }
+      .xqy .love .love-img img {
+        width: 30px;
+        height: 30px;
+        margin-top: 20px; }
+
+/*# sourceMappingURL=xqy.css.map */

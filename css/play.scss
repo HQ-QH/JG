@@ -1,0 +1,122 @@
+.play-bgc {
+    width: 100%;
+    background-color: white;
+    border-top: 1px darkgray solid;
+}
+
+.ba-ba {
+    width: 1200px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+}
+
+.ba-ba p {
+    font-size: 35px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.tht {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tht>li {
+    width: 120px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tht a {
+    color: #000000;
+}
+
+.tht a:hover {
+    color: red;
+}
+
+.tht>li:hover {
+    border-bottom: 3px red solid;
+}
+
+.tab-bo>div:nth-child(2) {
+    display: none;
+}
+
+.tab-bo>div:nth-child(3) {
+    display: none;
+}
+
+#div3 {
+    width: 100%;
+    background-color: ghostwhite;
+    .life {
+        width: 1200px;
+        margin: auto;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .life-sh {
+        width: 120px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .se {
+        width: 10px;
+        height: 40px;
+        background-color: red;
+    }
+    .se-nei {
+        width: 100px;
+        height: 40px;
+    }
+    .se-nei>a {
+        color: #000000;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .life-img {
+        width: 1200px;
+        height: 230px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #li-img {
+        width: 180px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #li-img img {
+        width: 140px;
+        height: 140px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    #li-img p {
+        padding-top: 20px;
+        color: gray;
+        font-size: 18px;
+        text-align: center;
+    }
+    .huli {
+        width: 1200px;
+        margin: auto;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .life-img-gh {
+        width: 1200px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}

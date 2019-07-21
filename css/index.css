@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.focus{
+	border-bottom:2px red solid ;
+	color: red;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.baner-bck {
+	background-color: #f6bf6f;
+	width: 100%;
+}
+
+.baner {
+	width: 1700px;
+	height: 300px;
+	margin: auto;
+	background-image: url(../images/original.jpg);
+	background-position-x: -200px;
+}
+
+.ban-details {
+	width: 300px;
+	height: 260px;
+	margin-left: 1150px;
+	padding-top: 30px;
+}
+
+.ban-bu>input {
+	background-color: orangered;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	margin-left: 50px;
+	outline: none;
+	font-size: 20px;
+}
+
+.ban-li {
+	width: 280px;
+	height: 40px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.ban-li>li>a {
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.li-one {
+	height: 40px;
+	width: 100px;
+	background-color: #FFFFFF;
+	background: rgb(255, 255, 255, 0.3);
+	margin: auto;
+	text-align: center;
+}
+
+.li-two {
+	background: rgb(255, 255, 255, 0.3);
+	height: 40px;
+	width: 80px;
+	text-align: center;
+	margin: auto;
+}
+
+.li-three {
+	height: 40px;
+	width: 70px;
+	background: rgb(255, 255, 255, 0.3);
+	margin: auto;
+	text-align: center;
+}
+
+.re {
+	width: 1400px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hot {
+	width: 1400px;
+	height: 50px;
+	margin: auto;
+}
+
+.re-le,
+.re-ri {
+	height: 400px;
+	width: 90px;
+}
+
+.re-le>a>img {
+	margin-top: 180px;
+}
+
+.re-ri>a>img {
+	margin-top: 180px;
+	margin-left: 50px;
+}
+
+.re-con {
+	height:386px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.re-img {
+	width: 280px;
+	border: 1px gainsboro solid;
+	border-radius: 10px;
+}
+
+.re-img img {
+	width: 280px;
+	height: 180px;
+	border-radius: 0px 10px 0px 0px;
+}
+
+.new {
+	width: 50px;
+	height: 30px;
+	color: #fff;
+	background-color: orangered;
+	border-radius: 0px 10px 0px 10px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 230px;
+}
+
+.re-down {
+	width: 280px;
+}
+
+.re-down>p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.two-num {
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+}
+
+.num {
+	width: 75px;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px orangered solid;
+}
+
+.num>a {
+	font-size: 18px;
+	line-height: 30px;
+	color: orangered;
+}
+
+.bgc {
+	width: 100%;
+	background-color: ghostwhite;
+}
+
+.the-report {
+	width: 1200px;
+	height: 630px;
+	margin: auto;
+}
+
+.ba {
+	width: 1200px;
+	height: 60px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	line-height: 60px;
+}
+
+.report {
+	width: 1200px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.aa {
+	width: 280px;
+	height: 280px;
+	border: 1px gainsboro solid;
+	border-radius: 10px;
+}
+
+.report img {
+	width: 280px;
+	height: 160px;
+	border-radius: 10px 10px 0 0;
+}
+
+.report-zi {
+	width: 280px;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.b {
+	width: 1200px;
+	height: 300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.xiaoxi {
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.x-img img {
+	width: 20px;
+	height: 20px;
+}
+
+.bgc-d {
+	width: 100%;
+	background-color: white;
+}
+
+.the-report-d {
+	width: 1200px;
+	height: 320px;
+	margin: auto;
+}
+
+.bgc-w {
+	width: 100%;
+	background-color: ghostwhite;
+}
+
+.the-report-w {
+	width: 1200px;
+	margin: auto;
+}
+
+.more {
+	width: 1200px;
+	height: 150px;
+	margin: auto;
+	text-align: center;
+}
+
+.more a {
+	line-height: 150px;
+	font-size: 20px;
+	color: red;
+}

@@ -1,0 +1,25 @@
+.bgc-er {
+    width: 750px;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fo{
+    border-bottom:2px black solid ;
+    color: #000000;
+}
+.bgc-er>li {
+    width: 120px;
+    text-align: center;
+}
+
+.bgc-er a:hover {
+    color: red;
+}
+
+.bgc-er>li:hover {
+    border-bottom: 3px red solid;
+}

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.JG-zc {
+  border-top: 1px lightgray solid;
+  background-color: ghostwhite; }
+  .JG-zc .zc {
+    width: 1200px;
+    background-color: white;
+    margin: auto; }
+    .JG-zc .zc ul {
+      text-align: center; }
+      .JG-zc .zc ul li {
+        margin-top: 20px; }
+      .JG-zc .zc ul .life-sh {
+        width: 120px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between; }
+      .JG-zc .zc ul .se {
+        width: 10px;
+        height: 40px;
+        background-color: red; }
+      .JG-zc .zc ul .se-nei {
+        width: 100px;
+        height: 40px; }
+      .JG-zc .zc ul .se-nei > a {
+        color: #000000;
+        font-size: 20px;
+        line-height: 40px; }
+      .JG-zc .zc ul .sub {
+        width: 410px;
+        height: 60px;
+        outline: none;
+        background-color: orangered; }
+      .JG-zc .zc ul input {
+        width: 400px;
+        height: 50px;
+        font-size: 16px;
+        outline: none;
+        padding-left: 10px; }
+      .JG-zc .zc ul .du input,
+      .JG-zc .zc ul img {
+        width: 250px;
+        outline: none;
+        vertical-align: text-bottom; }
+      .JG-zc .zc ul .dudu input {
+        width: 250px;
+        outline: none; }
+      .JG-zc .zc ul .xy {
+        width: 400px;
+        height: 80px;
+        margin: auto;
+        line-height: 80px; }
+
+/*# sourceMappingURL=zc.css.map */

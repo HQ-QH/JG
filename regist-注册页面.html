@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/bottom.css" />
+		<link rel="stylesheet" href="css/play.css" />
+		<link rel="stylesheet" href="css/xqy.css" />
+		<link rel="stylesheet" href="css/zc.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="JG">
+			<!--导航栏-->
+			<div id="nan">
+				<div id="nn">
+					<div class="navigation">
+						<li class="bar-one">
+							<img src="img/logonew.png">
+						</li>
+						<li class="bar-two">
+							<div class="bar">
+								<p>
+									<a href="index-首页.html" style="color: orangered;">首页</a>
+								</p>
+							</div>
+							<div class="bar">
+								<p>
+									<a href="play-酷玩模块.html">酷玩</a>
+								</p>
+							</div>
+							<div class="bar">
+								<p>
+									<a href="导购.html">导购</a>
+								</p>
+							</div>
+							<div class="bar">
+								<p>
+									<a href="help-免费使用.html">使用</a>
+								</p>
+							</div>
+							<div class="bar">
+								<p>
+									<a href="about-报告.html">报告</a>
+								</p>
+							</div>
+						</li>
+						<li class="bar-three">
+							<div class="ba-img">
+								<a href="#"><img src="images/search.png"></a>
+							</div>
+							<div class="bar-img">
+								<a href="regist-注册页面.html" style="line-height: 35px;margin-left: 20px;color: orangered;">注册</a>
+							</div>
+						</li>
+					</div>
+				</div>
+			</div>
+			<!--z注册机果-->
+			<div class="JG-zc">
+				<br/>
+				<div class="zc">
+					<ul>
+						<li class="life-sh">
+							<div class="se"></div>
+							<div class="se-nei">
+								<a href="#">注册机果</a>
+							</div>
+						</li>
+						<li><input type="text" placeholder="请输入登陆手机号码" id="tell">
+							<span id="spinfo1"></span><br />
+						</li>
+						<li class="du">
+							<input type="text" placeholder="请输入图片验证码" id="yzm1">
+							<span id="spinfo2"></span>
+							<img src="img/imgCode.jpg" style="width: 146px;">
+						</li>
+						<li class="dudu">
+							<input type="text" placeholder="请输入4位数字验证码" id="yzm2">
+							<span id="spinfo3"></span>
+							<input type="text" placeholder="点击获取验证码" style=" font-size: 16px;width: 132px;background-color: white;">
+						</li>
+						<li><input type="text" placeholder="请输入用户名" id="unam">
+							<span id="spinfo4"></span><br /></li>
+						<li><input type="text" placeholder="请输入新密码" id="upwd">
+							<span id="spinfo5"></span><br /></li>
+						<li><input type="text" placeholder="请确定新密码" id="npwd">
+							<span id="spinfo6"></span><br /></li>
+						<li class="xy">
+							<span>我已同意<a href="" style="color: steelblue;"><极果用户协议></a></span>
+						</li>
+						<li>
+							<input type="submit" value="立即注册" class="sub" style="font-size: 16px;color: white;">
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<br/>
+			<!--底部-->
+			<div class="bottom">
+				<ul>
+					<li>
+						<img src="img/code.png" />
+						<div class="">
+							<img src="img/logoImg.jpg" />
+							<p>全球酷玩试用导购平台</p>
+							<p>酷·新奇·好玩·品质</p>
+							<p>微信添加"JguoJguo"</p>
+							<p>获取我们的服务。</p>
+						</div>
+					</li>
+					<li>
+						<p>免费试用</p>
+						<a href="">试用流程</a>
+						<a href="">如何提高成功率</a>
+					</li>
+					<li>
+						<p>友情链接</p>
+						<div class="">
+							<a href="">智东西</a>
+							<a href="">搜狐IT</a>
+							<a href="">搜狐数码</a>
+							<a href="">凤凰数码</a>
+							<a href="">泡泡网</a>
+							<a href="">ZUK社区</a>
+							<a href="">极客公园</a>
+							<a href="">果库</a>
+						</div>
+						<div class="">
+							<a href="">WEIBUST</a>
+							<a href="">腾讯科技</a>
+							<a href="">凤凰科技</a>
+							<a href="">PConline</a>
+							<a href="">3W咖啡</a>
+							<a href="">亿觅emie</a>
+							<a href="">易迅易启玩</a>
+						</div>
+					</li>
+
+					<li>
+						<p>购买攻略</p>
+						<a href="">美亚海淘教程</a>
+						<a href="">日亚海教程</a>
+						<a href="">海淘转运攻略</a>
+						<a href="">kickstarter.众筹购买攻略</a>
+						<a href=""> indiegogo众筹购买攻略</a>
+					</li>
+					<li>
+						<p> 厂商合作</p>
+						<a href="">关于极果</a>
+						<a href="">联系我们</a>
+						<a href="">商务合作:BD@jiguo.com</a>
+						<a href="">CEO部:CEO@jiguo.com</a>
+
+					</li>
+
+				</ul>
+
+				<p>2016 极果版权所有</p>
+			</div>
+			<!--zuida-->
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function() {
+			//手机号码验证
+			$("#tell").blur(function() { /*失去焦点*/
+				if($("#tell").val() == "") {
+					$("#spinfo1").text("邮箱不能为空");
+				} else {
+					if(/^1([38]\d|5[0-35-9]|7[3678])\d{8}$/.test($(this).val()) == false) {
+						// test()用于检测一个字符串是否匹配某个模式. 如果字符串中有匹配的值返回 true ，否则返回 false
+						$("#spinfo1").text("邮箱格式不正确，请重新填写");
+					} else {
+						$("#spinfo2").text("");
+					}
+				}
+			});
+			//图片验证码
+			$("#yzm1").blur(function() {
+				if($("#yzm1").val() == "") {
+					$("#spinfo2").text("验证码不能为空");
+				} else {
+					$("#spinfo2").text("");
+				}
+			});
+			//数字验证码
+			$("#yzm2").blur(function() {
+				if($("#yzm2").val() == "") {
+					$("#spinfo3").text("验证码不能为空");
+				} else {
+					$("#spinfo3").text("");
+				}
+			});
+			//用户名验证
+			$("#unam").blur(function() {
+				if($("#unam").val() == "") {
+					$("#spinfo4").text("用户名不能为空");
+				} else {
+					if(/^.{3,8}$/.test($(this).val()) == false) {
+						$("#spinfo4").text("请输入3-8位用户名");
+					} else {
+						$("#spinfo4").text("");
+					}
+				}
+			});
+			//密码证码
+			$("#upwd").blur(function() {
+				if($("#upwd").val() == "") {
+					$("#spinfo5").text("密码不能为空");
+				} else {
+					if(/^[A-Za-z0-9]+$/.test($(this).val()) == false) {
+						$("#spinfo5").text("密码由数字和26个英文字母组成的任意长度字符串");
+					} else {
+						$("#spinfo5").text("");
+					}
+				}
+			});
+			//确认密码
+			$("#npwd").blur(function() {
+				if($("#npwd").val() == "") {
+					$("#spinfo6").text("确认密码不能为空");
+				} else {
+					if($("#npwd").val() != $("#upwd").val()) {
+						$("#spinfo6").text("两次密码不一致,请重新输入");
+					} else {
+						$("#spinfo6").text("");
+					}
+				}
+			});
+		})
+		window.addEventListener('scroll', function() {
+			let t = $('body, html').scrollTop(); // 目前监听的是整个body的滚动条距离
+			if(t > 0) {
+				$('#nan').addClass('nan')
+			} else {
+				$('#nan').removeClass('nan')
+			}
+		})
+	</script>
+
+</html>
